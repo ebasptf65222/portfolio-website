@@ -14,6 +14,7 @@ const getServerConfig = async () => {
 };
 
 export default defineConfig({
+  base: '/portfolio-website/',
   title: "个人文档",
   description: "个人技能、项目和经验展示",
   lang: 'zh-CN',
