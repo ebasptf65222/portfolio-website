@@ -1,0 +1,42 @@
+{
+  "performance": {
+    "html": {
+      "count": 11,
+      "size": 227439
+    },
+    "css": {
+      "count": 2,
+      "size": 118493
+    },
+    "js": {
+      "count": 27,
+      "size": 375564
+    },
+    "images": {
+      "count": 2,
+      "size": 1340
+    },
+    "other": {
+      "count": 19,
+      "size": 645799
+    }
+  },
+  "seo": {
+    "hasTitle": true,
+    "hasDescription": true,
+    "hasKeywords": true,
+    "hasOgTags": false,
+    "hasCanonical": false,
+    "hasViewport": true,
+    "hasLang": true,
+    "hasH1": true,
+    "hasFavicon": true,
+    "hasRobots": false
+  },
+  "accessibility": {},
+  "suggestions": [
+    "CSS文件较大，建议启用压缩和代码分割",
+    "添加Open Graph标签以改善社交媒体分享效果",
+    "添加canonical链接以避免重复内容问题"
+  ]
+}

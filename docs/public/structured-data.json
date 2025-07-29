@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "作者姓名",
+  "url": "https://your-domain.com",
+  "description": "展示我的技能、项目和经验的专业作品集",
+  "jobTitle": "软件开发工程师",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "公司名称"
+  },
+  "knowsAbout": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Vue.js",
+    "Node.js",
+    "Python",
+    "Web Development"
+  ],
+  "sameAs": [
+    "https://github.com/your-username",
+    "https://linkedin.com/in/your-profile",
+    "https://twitter.com/your_twitter"
+  ]
+}

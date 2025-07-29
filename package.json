@@ -1,0 +1,29 @@
+{
+  "name": "my-portfolio-docs",
+  "version": "1.0.0",
+  "description": "个人资料文档网站",
+  "type": "module",  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:dev1": "vitepress dev docs --host 0.0.0.0",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "analyze": "node analyze-website.js",
+    "deploy:github": "powershell -ExecutionPolicy Bypass -File deploy.ps1 -target github-pages",
+    "deploy:netlify": "powershell -ExecutionPolicy Bypass -File deploy.ps1 -target netlify",
+    "deploy:vercel": "powershell -ExecutionPolicy Bypass -File deploy.ps1 -target vercel",
+    "deploy": "powershell -ExecutionPolicy Bypass -File deploy.ps1",
+    "status": "powershell -ExecutionPolicy Bypass -File check-status.ps1",
+    "seo": "node generate-seo.js",
+    "seo:optimize": "node seo-optimizer.js",
+    "content:manage": "node content-manager.js",
+    "performance": "node performance-monitor.js",
+    "optimize": "npm run seo:optimize && npm run performance",
+    "full-analysis": "npm run analyze && npm run seo:optimize && npm run performance"
+  },
+  "devDependencies": {
+    "vitepress": "^1.3.1"
+  },
+  "keywords": ["vitepress", "文档", "个人资料"],
+  "author": "Your Name",
+  "license": "MIT"
+}

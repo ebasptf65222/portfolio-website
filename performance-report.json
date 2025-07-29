@@ -1,0 +1,915 @@
+{
+  "timestamp": "2025-06-05T07:22:30.145Z",
+  "files": {
+    "total": 61,
+    "totalSize": 1368796,
+    "totalSizeKB": 1336.71,
+    "totalSizeMB": 1.31,
+    "byType": {
+      ".html": {
+        "count": 11,
+        "totalSize": 227439,
+        "files": [
+          {
+            "filename": "404.html",
+            "size": 3788,
+            "sizeKB": 3.7,
+            "sizeMB": 0,
+            "type": ".html",
+            "lastModified": "2025-06-05T07:21:33.551Z"
+          },
+          {
+            "filename": "about.html",
+            "size": 20365,
+            "sizeKB": 19.89,
+            "sizeMB": 0.02,
+            "type": ".html",
+            "lastModified": "2025-06-05T07:21:33.562Z"
+          },
+          {
+            "filename": "blog\\posts\\javascript.html",
+            "size": 18072,
+            "sizeKB": 17.65,
+            "sizeMB": 0.02,
+            "type": ".html",
+            "lastModified": "2025-06-05T07:21:33.562Z"
+          },
+          {
+            "filename": "blog\\posts\\vitepress.html",
+            "size": 18086,
+            "sizeKB": 17.66,
+            "sizeMB": 0.02,
+            "type": ".html",
+            "lastModified": "2025-06-05T07:21:33.562Z"
+          },
+          {
+            "filename": "blog.html",
+            "size": 28917,
+            "sizeKB": 28.24,
+            "sizeMB": 0.03,
+            "type": ".html",
+            "lastModified": "2025-06-05T07:21:33.551Z"
+          },
+          {
+            "filename": "contact.html",
+            "size": 24033,
+            "sizeKB": 23.47,
+            "sizeMB": 0.02,
+            "type": ".html",
+            "lastModified": "2025-06-05T07:21:33.561Z"
+          },
+          {
+            "filename": "experience.html",
+            "size": 26370,
+            "sizeKB": 25.75,
+            "sizeMB": 0.03,
+            "type": ".html",
+            "lastModified": "2025-06-05T07:21:33.562Z"
+          },
+          {
+            "filename": "index.html",
+            "size": 14118,
+            "sizeKB": 13.79,
+            "sizeMB": 0.01,
+            "type": ".html",
+            "lastModified": "2025-06-05T07:21:33.547Z"
+          },
+          {
+            "filename": "opensource.html",
+            "size": 28285,
+            "sizeKB": 27.62,
+            "sizeMB": 0.03,
+            "type": ".html",
+            "lastModified": "2025-06-05T07:21:33.550Z"
+          },
+          {
+            "filename": "projects.html",
+            "size": 25058,
+            "sizeKB": 24.47,
+            "sizeMB": 0.02,
+            "type": ".html",
+            "lastModified": "2025-06-05T07:21:33.562Z"
+          },
+          {
+            "filename": "skills.html",
+            "size": 20347,
+            "sizeKB": 19.87,
+            "sizeMB": 0.02,
+            "type": ".html",
+            "lastModified": "2025-06-05T07:21:33.562Z"
+          }
+        ]
+      },
+      ".js": {
+        "count": 27,
+        "totalSize": 375564,
+        "files": [
+          {
+            "filename": "assets\\404.md.F-rlpJab.js",
+            "size": 792,
+            "sizeKB": 0.77,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\404.md.F-rlpJab.lean.js",
+            "size": 430,
+            "sizeKB": 0.42,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\about.md.B5sRWFZA.js",
+            "size": 4919,
+            "sizeKB": 4.8,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.227Z"
+          },
+          {
+            "filename": "assets\\about.md.B5sRWFZA.lean.js",
+            "size": 510,
+            "sizeKB": 0.5,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\app.ByGUHnOy.js",
+            "size": 1352,
+            "sizeKB": 1.32,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\blog.md.MqP8Fqee.js",
+            "size": 13154,
+            "sizeKB": 12.85,
+            "sizeMB": 0.01,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.227Z"
+          },
+          {
+            "filename": "assets\\blog.md.MqP8Fqee.lean.js",
+            "size": 390,
+            "sizeKB": 0.38,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\blog_posts_javascript.md.CzPCtRQQ.js",
+            "size": 2808,
+            "sizeKB": 2.74,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.233Z"
+          },
+          {
+            "filename": "assets\\blog_posts_javascript.md.CzPCtRQQ.lean.js",
+            "size": 735,
+            "sizeKB": 0.72,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\blog_posts_vitepress.md.C0nlADxa.js",
+            "size": 2815,
+            "sizeKB": 2.75,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.234Z"
+          },
+          {
+            "filename": "assets\\blog_posts_vitepress.md.C0nlADxa.lean.js",
+            "size": 726,
+            "sizeKB": 0.71,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\chunks\\@localSearchIndexroot.DbJuu_oF.js",
+            "size": 73236,
+            "sizeKB": 71.52,
+            "sizeMB": 0.07,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\chunks\\framework.C78-raJP.js",
+            "size": 107562,
+            "sizeKB": 105.04,
+            "sizeMB": 0.1,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\chunks\\theme.CJTSTxZg.js",
+            "size": 53835,
+            "sizeKB": 52.57,
+            "sizeMB": 0.05,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.225Z"
+          },
+          {
+            "filename": "assets\\chunks\\VPLocalSearchBox.CKFh8gMa.js",
+            "size": 60844,
+            "sizeKB": 59.42,
+            "sizeMB": 0.06,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\contact.md.Jeb2uR1a.js",
+            "size": 8471,
+            "sizeKB": 8.27,
+            "sizeMB": 0.01,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\contact.md.Jeb2uR1a.lean.js",
+            "size": 396,
+            "sizeKB": 0.39,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\experience.md.DSekDyF8.js",
+            "size": 10610,
+            "sizeKB": 10.36,
+            "sizeMB": 0.01,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\experience.md.DSekDyF8.lean.js",
+            "size": 408,
+            "sizeKB": 0.4,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\index.md.idJ1y4rm.js",
+            "size": 2568,
+            "sizeKB": 2.51,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\index.md.idJ1y4rm.lean.js",
+            "size": 1158,
+            "sizeKB": 1.13,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\opensource.md.DFKCEnx7.js",
+            "size": 12527,
+            "sizeKB": 12.23,
+            "sizeMB": 0.01,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\opensource.md.DFKCEnx7.lean.js",
+            "size": 408,
+            "sizeKB": 0.4,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.237Z"
+          },
+          {
+            "filename": "assets\\projects.md.Qbk9nRuf.js",
+            "size": 9292,
+            "sizeKB": 9.07,
+            "sizeMB": 0.01,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\projects.md.Qbk9nRuf.lean.js",
+            "size": 402,
+            "sizeKB": 0.39,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.237Z"
+          },
+          {
+            "filename": "assets\\skills.md.B_bRPHLA.js",
+            "size": 4703,
+            "sizeKB": 4.59,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.236Z"
+          },
+          {
+            "filename": "assets\\skills.md.B_bRPHLA.lean.js",
+            "size": 513,
+            "sizeKB": 0.5,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:21:32.237Z"
+          }
+        ]
+      },
+      ".woff2": {
+        "count": 14,
+        "totalSize": 642756,
+        "files": [
+          {
+            "filename": "assets\\inter-italic-cyrillic-ext.r48I6akx.woff2",
+            "size": 43112,
+            "sizeKB": 42.1,
+            "sizeMB": 0.04,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\inter-italic-cyrillic.By2_1cv3.woff2",
+            "size": 31300,
+            "sizeKB": 30.57,
+            "sizeMB": 0.03,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\inter-italic-greek-ext.1u6EdAuj.woff2",
+            "size": 17404,
+            "sizeKB": 17,
+            "sizeMB": 0.02,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\inter-italic-greek.DJ8dCoTZ.woff2",
+            "size": 32564,
+            "sizeKB": 31.8,
+            "sizeMB": 0.03,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\inter-italic-latin-ext.CN1xVJS-.woff2",
+            "size": 120840,
+            "sizeKB": 118.01,
+            "sizeMB": 0.12,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\inter-italic-latin.C2AdPX0b.woff2",
+            "size": 74784,
+            "sizeKB": 73.03,
+            "sizeMB": 0.07,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\inter-italic-vietnamese.BSbpV94h.woff2",
+            "size": 14884,
+            "sizeKB": 14.54,
+            "sizeMB": 0.01,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\inter-roman-cyrillic-ext.BBPuwvHQ.woff2",
+            "size": 40488,
+            "sizeKB": 39.54,
+            "sizeMB": 0.04,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.225Z"
+          },
+          {
+            "filename": "assets\\inter-roman-cyrillic.C5lxZ8CY.woff2",
+            "size": 29164,
+            "sizeKB": 28.48,
+            "sizeMB": 0.03,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\inter-roman-greek-ext.CqjqNYQ-.woff2",
+            "size": 16272,
+            "sizeKB": 15.89,
+            "sizeMB": 0.02,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\inter-roman-greek.BBVDIX6e.woff2",
+            "size": 29920,
+            "sizeKB": 29.22,
+            "sizeMB": 0.03,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.222Z"
+          },
+          {
+            "filename": "assets\\inter-roman-latin-ext.4ZJIpNVo.woff2",
+            "size": 110160,
+            "sizeKB": 107.58,
+            "sizeMB": 0.11,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\inter-roman-latin.Di8DUHzh.woff2",
+            "size": 67792,
+            "sizeKB": 66.2,
+            "sizeMB": 0.06,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          },
+          {
+            "filename": "assets\\inter-roman-vietnamese.BjW4sHH5.woff2",
+            "size": 14072,
+            "sizeKB": 13.74,
+            "sizeMB": 0.01,
+            "type": ".woff2",
+            "lastModified": "2025-06-05T07:21:32.226Z"
+          }
+        ]
+      },
+      ".css": {
+        "count": 2,
+        "totalSize": 118493,
+        "files": [
+          {
+            "filename": "assets\\style.Bc0748xp.css",
+            "size": 117593,
+            "sizeKB": 114.84,
+            "sizeMB": 0.11,
+            "type": ".css",
+            "lastModified": "2025-06-05T07:21:32.238Z"
+          },
+          {
+            "filename": "vp-icons.css",
+            "size": 900,
+            "sizeKB": 0.88,
+            "sizeMB": 0,
+            "type": ".css",
+            "lastModified": "2025-06-05T07:21:33.585Z"
+          }
+        ]
+      },
+      ".svg": {
+        "count": 2,
+        "totalSize": 1340,
+        "files": [
+          {
+            "filename": "favicon.svg",
+            "size": 421,
+            "sizeKB": 0.41,
+            "sizeMB": 0,
+            "type": ".svg",
+            "lastModified": "2025-06-05T06:28:02.421Z"
+          },
+          {
+            "filename": "logo.svg",
+            "size": 919,
+            "sizeKB": 0.9,
+            "sizeMB": 0,
+            "type": ".svg",
+            "lastModified": "2025-06-05T06:28:02.424Z"
+          }
+        ]
+      },
+      ".json": {
+        "count": 3,
+        "totalSize": 1258,
+        "files": [
+          {
+            "filename": "hashmap.json",
+            "size": 288,
+            "sizeKB": 0.28,
+            "sizeMB": 0,
+            "type": ".json",
+            "lastModified": "2025-06-05T07:21:33.587Z"
+          },
+          {
+            "filename": "manifest.json",
+            "size": 379,
+            "sizeKB": 0.37,
+            "sizeMB": 0,
+            "type": ".json",
+            "lastModified": "2025-06-05T07:20:29.931Z"
+          },
+          {
+            "filename": "structured-data.json",
+            "size": 591,
+            "sizeKB": 0.58,
+            "sizeMB": 0,
+            "type": ".json",
+            "lastModified": "2025-06-05T07:20:29.933Z"
+          }
+        ]
+      },
+      ".txt": {
+        "count": 1,
+        "totalSize": 142,
+        "files": [
+          {
+            "filename": "robots.txt",
+            "size": 142,
+            "sizeKB": 0.14,
+            "sizeMB": 0,
+            "type": ".txt",
+            "lastModified": "2025-06-05T07:22:28.077Z"
+          }
+        ]
+      },
+      ".xml": {
+        "count": 1,
+        "totalSize": 1804,
+        "files": [
+          {
+            "filename": "sitemap.xml",
+            "size": 1804,
+            "sizeKB": 1.76,
+            "sizeMB": 0,
+            "type": ".xml",
+            "lastModified": "2025-06-05T07:22:28.076Z"
+          }
+        ]
+      }
+    },
+    "largest": [
+      {
+        "filename": "assets\\inter-italic-latin-ext.CN1xVJS-.woff2",
+        "size": 120840,
+        "sizeKB": 118.01,
+        "sizeMB": 0.12,
+        "type": ".woff2",
+        "lastModified": "2025-06-05T07:21:32.226Z"
+      },
+      {
+        "filename": "assets\\style.Bc0748xp.css",
+        "size": 117593,
+        "sizeKB": 114.84,
+        "sizeMB": 0.11,
+        "type": ".css",
+        "lastModified": "2025-06-05T07:21:32.238Z"
+      },
+      {
+        "filename": "assets\\inter-roman-latin-ext.4ZJIpNVo.woff2",
+        "size": 110160,
+        "sizeKB": 107.58,
+        "sizeMB": 0.11,
+        "type": ".woff2",
+        "lastModified": "2025-06-05T07:21:32.226Z"
+      },
+      {
+        "filename": "assets\\chunks\\framework.C78-raJP.js",
+        "size": 107562,
+        "sizeKB": 105.04,
+        "sizeMB": 0.1,
+        "type": ".js",
+        "lastModified": "2025-06-05T07:21:32.226Z"
+      },
+      {
+        "filename": "assets\\inter-italic-latin.C2AdPX0b.woff2",
+        "size": 74784,
+        "sizeKB": 73.03,
+        "sizeMB": 0.07,
+        "type": ".woff2",
+        "lastModified": "2025-06-05T07:21:32.226Z"
+      },
+      {
+        "filename": "assets\\chunks\\@localSearchIndexroot.DbJuu_oF.js",
+        "size": 73236,
+        "sizeKB": 71.52,
+        "sizeMB": 0.07,
+        "type": ".js",
+        "lastModified": "2025-06-05T07:21:32.236Z"
+      },
+      {
+        "filename": "assets\\inter-roman-latin.Di8DUHzh.woff2",
+        "size": 67792,
+        "sizeKB": 66.2,
+        "sizeMB": 0.06,
+        "type": ".woff2",
+        "lastModified": "2025-06-05T07:21:32.226Z"
+      },
+      {
+        "filename": "assets\\chunks\\VPLocalSearchBox.CKFh8gMa.js",
+        "size": 60844,
+        "sizeKB": 59.42,
+        "sizeMB": 0.06,
+        "type": ".js",
+        "lastModified": "2025-06-05T07:21:32.236Z"
+      },
+      {
+        "filename": "assets\\chunks\\theme.CJTSTxZg.js",
+        "size": 53835,
+        "sizeKB": 52.57,
+        "sizeMB": 0.05,
+        "type": ".js",
+        "lastModified": "2025-06-05T07:21:32.225Z"
+      },
+      {
+        "filename": "assets\\inter-italic-cyrillic-ext.r48I6akx.woff2",
+        "size": 43112,
+        "sizeKB": 42.1,
+        "sizeMB": 0.04,
+        "type": ".woff2",
+        "lastModified": "2025-06-05T07:21:32.226Z"
+      }
+    ]
+  },
+  "assets": {
+    "total": 2,
+    "totalSize": 1340,
+    "totalSizeKB": 1.31,
+    "totalSizeMB": 0,
+    "files": {
+      "favicon.svg": {
+        "size": 421,
+        "sizeKB": 0.41,
+        "sizeMB": 0,
+        "type": ".svg",
+        "lastModified": "2025-06-05T06:28:02.421Z"
+      },
+      "logo.svg": {
+        "size": 919,
+        "sizeKB": 0.9,
+        "sizeMB": 0,
+        "type": ".svg",
+        "lastModified": "2025-06-05T06:28:02.424Z"
+      }
+    },
+    "unoptimizedImages": []
+  },
+  "performance": {
+    "buildTime": {
+      "duration": 7320,
+      "durationSeconds": 7.32,
+      "status": "good"
+    },
+    "bundleAnalysis": {
+      "javascript": {
+        "files": {
+          "assets\\404.md.F-rlpJab.js": {
+            "size": 792,
+            "sizeKB": 0.77,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.953Z"
+          },
+          "assets\\404.md.F-rlpJab.lean.js": {
+            "size": 430,
+            "sizeKB": 0.42,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.963Z"
+          },
+          "assets\\about.md.B5sRWFZA.js": {
+            "size": 4919,
+            "sizeKB": 4.8,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.953Z"
+          },
+          "assets\\about.md.B5sRWFZA.lean.js": {
+            "size": 510,
+            "sizeKB": 0.5,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.963Z"
+          },
+          "assets\\app.D2jG_xTd.js": {
+            "size": 1352,
+            "sizeKB": 1.32,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.953Z"
+          },
+          "assets\\blog.md.MqP8Fqee.js": {
+            "size": 13154,
+            "sizeKB": 12.85,
+            "sizeMB": 0.01,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.953Z"
+          },
+          "assets\\blog.md.MqP8Fqee.lean.js": {
+            "size": 390,
+            "sizeKB": 0.38,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.963Z"
+          },
+          "assets\\blog_posts_javascript.md.CzPCtRQQ.js": {
+            "size": 2808,
+            "sizeKB": 2.74,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.960Z"
+          },
+          "assets\\blog_posts_javascript.md.CzPCtRQQ.lean.js": {
+            "size": 735,
+            "sizeKB": 0.72,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.963Z"
+          },
+          "assets\\blog_posts_vitepress.md.C0nlADxa.js": {
+            "size": 2815,
+            "sizeKB": 2.75,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.961Z"
+          },
+          "assets\\blog_posts_vitepress.md.C0nlADxa.lean.js": {
+            "size": 726,
+            "sizeKB": 0.71,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.963Z"
+          },
+          "assets\\chunks\\@localSearchIndexroot.C7gMmm9p.js": {
+            "size": 73255,
+            "sizeKB": 71.54,
+            "sizeMB": 0.07,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.963Z"
+          },
+          "assets\\chunks\\framework.C78-raJP.js": {
+            "size": 107562,
+            "sizeKB": 105.04,
+            "sizeMB": 0.1,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.951Z"
+          },
+          "assets\\chunks\\theme.DaSZhuz9.js": {
+            "size": 53835,
+            "sizeKB": 52.57,
+            "sizeMB": 0.05,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.953Z"
+          },
+          "assets\\chunks\\VPLocalSearchBox.D9dHmZpy.js": {
+            "size": 60844,
+            "sizeKB": 59.42,
+            "sizeMB": 0.06,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.962Z"
+          },
+          "assets\\contact.md.Jeb2uR1a.js": {
+            "size": 8471,
+            "sizeKB": 8.27,
+            "sizeMB": 0.01,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.961Z"
+          },
+          "assets\\contact.md.Jeb2uR1a.lean.js": {
+            "size": 396,
+            "sizeKB": 0.39,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.963Z"
+          },
+          "assets\\experience.md.DSekDyF8.js": {
+            "size": 10610,
+            "sizeKB": 10.36,
+            "sizeMB": 0.01,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.962Z"
+          },
+          "assets\\experience.md.DSekDyF8.lean.js": {
+            "size": 408,
+            "sizeKB": 0.4,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.963Z"
+          },
+          "assets\\index.md.idJ1y4rm.js": {
+            "size": 2568,
+            "sizeKB": 2.51,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.961Z"
+          },
+          "assets\\index.md.idJ1y4rm.lean.js": {
+            "size": 1158,
+            "sizeKB": 1.13,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.963Z"
+          },
+          "assets\\opensource.md.DFKCEnx7.js": {
+            "size": 12527,
+            "sizeKB": 12.23,
+            "sizeMB": 0.01,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.962Z"
+          },
+          "assets\\opensource.md.DFKCEnx7.lean.js": {
+            "size": 408,
+            "sizeKB": 0.4,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.963Z"
+          },
+          "assets\\projects.md.Qbk9nRuf.js": {
+            "size": 9292,
+            "sizeKB": 9.07,
+            "sizeMB": 0.01,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.962Z"
+          },
+          "assets\\projects.md.Qbk9nRuf.lean.js": {
+            "size": 402,
+            "sizeKB": 0.39,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.963Z"
+          },
+          "assets\\skills.md.B_bRPHLA.js": {
+            "size": 4703,
+            "sizeKB": 4.59,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.962Z"
+          },
+          "assets\\skills.md.B_bRPHLA.lean.js": {
+            "size": 513,
+            "sizeKB": 0.5,
+            "sizeMB": 0,
+            "type": ".js",
+            "lastModified": "2025-06-05T07:22:35.964Z"
+          }
+        },
+        "totalSize": 375583,
+        "totalSizeKB": 366.78
+      },
+      "css": {
+        "files": {
+          "assets\\style.Bc0748xp.css": {
+            "size": 117593,
+            "sizeKB": 114.84,
+            "sizeMB": 0.11,
+            "type": ".css",
+            "lastModified": "2025-06-05T07:22:35.964Z"
+          },
+          "vp-icons.css": {
+            "size": 900,
+            "sizeKB": 0.88,
+            "sizeMB": 0,
+            "type": ".css",
+            "lastModified": "2025-06-05T07:22:37.404Z"
+          }
+        },
+        "totalSize": 118493,
+        "totalSizeKB": 115.72
+      }
+    },
+    "dependencies": {
+      "dependencies": {
+        "count": 0,
+        "list": {}
+      },
+      "devDependencies": {
+        "count": 1,
+        "list": {
+          "vitepress": "^1.3.1"
+        }
+      },
+      "total": 1
+    },
+    "caching": {
+      "totalFiles": 68,
+      "hashedFiles": 0,
+      "hashedPercentage": 0,
+      "strategy": "needs-improvement"
+    }
+  },
+  "recommendations": [
+    {
+      "type": "info",
+      "category": "caching",
+      "message": "缺少文件哈希，可能影响缓存效果",
+      "suggestions": [
+        "启用文件名哈希",
+        "配置适当的缓存头",
+        "使用Service Worker",
+        "优化资源缓存策略"
+      ]
+    }
+  ],
+  "summary": {
+    "totalFiles": 61,
+    "totalSizeMB": 1.31,
+    "buildTimeSeconds": 7.32,
+    "recommendationsCount": 1,
+    "overallScore": 95
+  }
+}

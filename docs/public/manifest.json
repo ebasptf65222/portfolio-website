@@ -1,0 +1,17 @@
+{
+  "name": "个人作品集网站",
+  "short_name": "Portfolio",
+  "description": "展示我的技能、项目和经验的专业作品集",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

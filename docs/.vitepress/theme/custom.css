@@ -1,0 +1,281 @@
+/**
+ * 自定义样式
+ * 用于美化VitePress默认主题
+ */
+
+/* 全局样式优化 */
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+  --vp-c-brand-lighter: #9ca2ff;
+  --vp-c-brand-lightest: #bcc0ff;
+  --vp-c-brand-dark: #535bf2;
+  --vp-c-brand-darker: #454ce1;
+  --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
+}
+
+/* 首页英雄区域优化 */
+.VPHero .name {
+  background: linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 特性卡片样式 */
+.VPFeature {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand);
+  box-shadow: 0 4px 16px rgba(100, 108, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* 导航栏样式优化 */
+.VPNav {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.dark .VPNav {
+  background-color: rgba(26, 26, 26, 0.85);
+}
+
+/* 侧边栏美化 */
+.VPSidebar {
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+/* 内容区域优化 */
+.VPContent {
+  padding-top: 24px;
+}
+
+/* 代码块样式 */
+.vp-code-group .tabs {
+  border-radius: 8px 8px 0 0;
+}
+
+/* 表格样式 */
+.vp-doc table {
+  border-radius: 8px;
+  overflow: hidden;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+  font-weight: 600;
+}
+
+/* 提示框样式 */
+.vp-doc .tip,
+.vp-doc .warning,
+.vp-doc .danger {
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+/* 自定义内容样式 */
+.skill-level {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+
+.tech-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  font-size: 12px;
+  color: var(--vp-c-text-2);
+  margin: 2px;
+}
+
+/* 项目卡片样式 */
+.project-card {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 16px 0;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  border-color: var(--vp-c-brand);
+  box-shadow: 0 4px 16px rgba(100, 108, 255, 0.1);
+}
+
+/* 统计数据样式 */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-border);
+}
+
+.stat-number {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--vp-c-brand);
+  display: block;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  margin-top: 8px;
+}
+
+/* 添加字体优化 */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* 增强响应式设计 */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .project-card {
+    padding: 16px;
+  }
+  
+  .VPHero .name {
+    font-size: 2rem;
+  }
+  
+  .VPFeature {
+    padding: 16px;
+  }
+}
+
+/* 添加平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 增强链接样式 */
+.vp-doc a {
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.vp-doc a:hover {
+  border-bottom-color: var(--vp-c-brand);
+}
+
+/* 代码块优化 */
+.vp-code-group .tabs {
+  border-radius: 8px 8px 0 0;
+}
+
+.vp-code-group .blocks {
+  border-radius: 0 0 8px 8px;
+}
+
+/* 警告框样式优化 */
+.custom-block {
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+/* 页面加载动画 */
+.VPContent {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 按钮hover效果增强 */
+.VPButton {
+  transition: all 0.3s ease;
+}
+
+.VPButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 社交链接优化 */
+.VPSocialLink {
+  transition: all 0.3s ease;
+}
+
+.VPSocialLink:hover {
+  transform: scale(1.1);
+}
+
+/* 目录样式优化 */
+.VPDocAsideOutline .outline-marker {
+  background-color: var(--vp-c-brand);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.VPDocAsideOutline .outline-link.active .outline-marker {
+  opacity: 1;
+}
+
+/* 滚动条样式优化 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vp-c-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-text-3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-text-2);
+}
+
+/* 动画效果 */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
